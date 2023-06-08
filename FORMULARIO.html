@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<body>
+  
+<h1 style="text-align:center;color:purple">Datos personales de un estudiante</h1>
+    <style>
+		   body {background-color:pink;}	    
+	</style>
+		
+
+<p>Llene todos los espacios con sus datos corespondientes:</p>
+
+<form method="post">
+
+<fieldset>
+    <legend style="background-color:orange;">Cèdula:</legend>   
+    <label for="cedula">Indique su nùmero de cèdula:</label>
+    <input type="cedula" id="cedula" name="cedula" required><br><br>
+</fieldset><br><br>
+ 
+<fieldset>
+    <legend style="background-color:orange;">Nombres/Apellidos</legend>
+    <label for="nombres">Nombres:</label><br>
+    <input type="text" id="nombres" name="nombres" value=" "><br>
+    <label for="apellidos">Apellidos:</label><br>
+    <input type="text" id="apellidos" name="apellidos" value=" "><br><br>
+</fieldset><br><br>
+ 
+<fieldset>
+    <legend style="background-color:orange;">Correo Electrònico</legend>
+    <label for="email">Indique su correo electrònico:</label>
+    <input type="email" id="email" name="email" required><br><br>
+</fieldset><br><br>
+ 
+<fieldset>
+    <legend style="background-color:orange;">Nùmero telefònico</legend>
+    <p>Indique un nùmero telefònico que se encuentre activo para comunicar cualquier emergencia.</p>
+    <br>
+    <label for="phone">Ingrese un nùmero:</label>
+    <input type="tel" id="phone" name="phone" placeholder="1234567825" pattern="[0-9-3-0-9-2-0-9-3-0}"><br><br>
+</fieldset><br><br>
+ 
+<fieldset>
+    <legend style="background-color:orange;">Sexo</legend>
+    <p>Defina su tipo de  <strong>"sexo":</strong></p>
+    <br>
+    <input type="checkbox" id="sexo" name="sexo" value="Masculino">
+    <label for="sexo"> Masculino</label><br>
+    <input type="checkbox" id="sexo" name="sexo" value="Femenino">
+    <label for="sexo"> Femenino</label><br><br> 
+</fieldset><br><br>
+ 
+<fieldset>
+    <legend style="background-color:orange;">Semestre</legend>
+    <p>Seleccione el semestre que esta cursando actualmente.</p>
+    <br>  
+    <label for="cars">Semestre actual:</label>
+    <select id="cars" name="cars">
+    <option value="1">1 semestre</option>
+    <option value="2">2 semestre</option>
+    <option value="3">3 semestre</option>
+    <option value="4">4 semestre</option>
+	<option value="5">5 semestre</option>
+    <option value="6">6 semestre</option>
+    <option value="7">7 semestre</option>
+    <option value="8">8 semestre</option>
+	<option value="9">9 semestre</option>
+    </select>
+</fieldset>
+  <br>
+  <br>
+  <input type="submit" value="Enviar">
+</form>
+<p>Sus respuestas han sido enviadas correctamente.GRACIAS</p>
+  <br>
+  <br>
+  <br>
+  <br>
+</body>
+</html>
+ 
